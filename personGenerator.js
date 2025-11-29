@@ -219,7 +219,7 @@ const personGenerator = {
     },
 
     randomBirthDate: function() {
-        let year = this.randomIntNumber(new Date().getFullYear(), 1940);
+        let year = this.randomIntNumber(2000, 1940);
         let obj = this.randomValue(this.mounthJson);
         let mounth = obj.mounth;
         let day = this.randomIntNumber(obj.maxDay, 1);
